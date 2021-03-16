@@ -111,6 +111,32 @@ a:hover {
     text-align: center;
 }
 
+.card {
+    position: relative;
+    width: 75vw;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    box-sizing: initial;
+   /* margin-right: auto; */
+   /* margin-left: auto;  */
+   /* align-self: center; */
+   /* align-content: center; */
+   /* width: 70%; */
+   /* justify-content: center; */
+   /* justify-self: center; */
+}
+
+.card-img-top {
+    /* width: 100%; */
+    height: 25vw;
+    object-fit: cover;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* margin-left: auto; */
+}
+
 /* images in the work section */
 .img {
     flex-wrap: wrap;
@@ -134,7 +160,7 @@ a:hover {
 
 /* image button */
 #work-stuff button {
-    background-color: transparent;
+    /* background-color: transparent;
     border-radius: 3px;
     color:transparent;
     outline: none;
@@ -144,7 +170,7 @@ a:hover {
     margin-right: auto;
     margin-left: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; */
     
 }
 

@@ -1,118 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-
     <title>Heather Storseth</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
     <link rel="stylesheet" href="./style.css">
-
 </head>
 
-
 <body>
-    
     <header>
-
         <h1 alt="Heather Storseth">Heather Storseth</h1>
-            <nav class="info-selectors">
-                <h3>
-                    <ul>
-                        <li>
-                            <button alt="about me"><a href="#about-me">About Me</a></button>
-                        </li>
+        <nav class="info-selectors">
+            <h3>
+                <ul>
+                    <li>
+                        <button alt="about me"><a href="#about-me">About Me</a></button>
+                    </li>
 
-                        <li>
-                            <button alt="work stuff"><a href="#work-stuff">Work</a></button>
-                        </li>
-                        <li>
-                            <button alt="contact info"><a href="#contact-info">Contact Info</a></button>
-                        </li>
-                    </ul>
-                </h3>
-            </nav>
+                    <li>
+                        <button alt="work stuff"><a href="#work-stuff">Work</a></button>
+                    </li>
+                    <li>
+                        <button alt="contact info"><a href="#contact-info">Contact Info</a></button>
+                    </li>
+                </ul>
+            </h3>
+        </nav>
 
     </header>
     <br>
 
     <main class="information-sections" alt="information sections">
         <!-- will change to a non-blurry pic later on -->
-        <img src="photos/pro-pic.JPG" class="profile-pic" alt="profile picture"/>
+        <img src="photos/pro-pic.JPG" class="profile-pic" alt="profile picture" />
 
-            <article id="about-me" class="stuff" alt="about me section"> 
-                <h2>About Me</h2>
-                    <p>
-                    <!-- Not sure how detailed this should be. Better more than less? Will edit if needed -->
-                    Hi, I'm Heather Storseth. I am from Selah, Washington and am currently living in Holland, Michigan. I am a mother of a two and three year-old, 
-                    married, and have two cats. I am someone that has a broad variety of hobbies and is continuously learning new things that spark my interest. I 
-                    currently enjoy playing cribbage, skiing, crocheting, building/designing improvements for my home, and am thouroughly enjoying learning 
-                    about web development. My goals for the next 5-10 years are to move to the mountains (Montana maybe?), learn some pottery skills, and to be 
-                    employed at a sustainable/eco friendly company. 
-                    </p>
-            </article><br>
+        <article id="about-me" class="stuff" alt="about me section">
+            <h2>About Me</h2>
+            <p>
+                <!-- Not sure how detailed this should be. Better more than less? Will edit if needed -->
+                Hi, I'm Heather Storseth. I am from Selah, Washington and am currently living in Holland, Michigan. I am
+                a mother of a two and three year-old,
+                married, and have two cats. I am someone that has a broad variety of hobbies and is continuously
+                learning new things that spark my interest. I
+                currently enjoy playing cribbage, skiing, crocheting, building/designing improvements for my home, and
+                am thouroughly enjoying learning
+                about web development. My goals for the next 5-10 years are to move to the mountains (Montana maybe?),
+                learn some pottery skills, and to be
+                employed at a sustainable/eco friendly company.
+            </p>
+        </article><br>
 
 
-        <section id="work-stuff" class="stuff" alt="section with my work"> 
+        <section id="work-stuff" class="stuff" alt="section with my work">
             <h2>Work</h2>
-                <p>
+            <p>
                 In this section, you will (eventually) be presented with my projects.
-                </p>
-        
-            <h3>Horiseon Project</h3>
-                <aside class="horiseon" alt="project one">
-                
-                    <button>
-                        <a href="https://hstor3.github.io/hw1horiseon/" target="_blank">
-                            <img src="photos/search-engine-optimization.jpg" class="img" />
-                        </a>
-                    </button>
-                </aside>
-                
+            </p>
+
+            <!-- <div class="carousel slide" data-bs-touch="false" data-bs-interval="false"> -->
+            <!-- <div class="carousel-inner"> -->
+            <!-- <div class="carousel-item active"> -->
+            <div class="card" id="projectCard">
+
+            </div>
+            <!-- "card" -->
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="card-body"> -->
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            <!-- </div> -->
+
+            <!-- <h3>Horiseon Project</h3>
+            <aside class="horiseon" alt="project one">
+
+                <button>
+                    <a href="https://hstor3.github.io/hw1horiseon/" target="_blank">
+                        <img src="photos/search-engine-optimization.jpg" class="img" />
+                    </a>
+                </button>
+            </aside>
+
             <h3>Nothing</h3>
-                <aside class="skilift" alt="project two">
-                
-                    <button>
-                        <img src="./photos/skilift.jpg" class="img" />
-                    </button>
-                </aside>
-            
+            <aside class="skilift" alt="project two">
+                <button>
+                    <img src="./photos/skilift.jpg" class="img" />
+                </button>
+            </aside>
+
             <h3>No Work Here</h3>
-                <aside class="triangles" alt="project three">
-                
-                    <button>
-                        <img src="./photos/triangles.jpg" class="img" />
-                    </button>
-                </aside>
+            <aside class="triangles" alt="project three">
+                <button>
+                    <img src="./photos/triangles.jpg" class="img" />
+                </button>
+            </aside>
 
             <h3>Nada</h3>
-                <aside class="maroonbells" alt="project four">
-                
-                    <button>
-                        <img src="./photos/maroonbells.jpg" class="img" />
-                    </button>
-                </aside>
-
+            <aside class="maroonbells" alt="project four">
+                <button>
+                    <img src="./photos/maroonbells.jpg" class="img" />
+                </button>
+            </aside> -->
         </section>
     </main>
-    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 
 <footer>
     <section id="contact-info" class="contact-info" alt="contact information">
-
         <h2>Contact Info</h2>
-            <p>
+        <p>
             <!-- change this section of info to a clickable link--needs improvement -->
-            <link href="mailto:heatherstorseth3@gmail.com" target="_blank">heatherstorseth3@gmail.com<br>
-            https://github.com/hstor3<br>
-            (509)-901-1565
-            </p>
+            <a href="mailto: heatherstorseth3@gmail.com" target="_blank">heatherstorseth3@gmail.com</a><br>
+            <a href='https://github.com/hstor3' target="_blank">https://github.com/hstor3</a><br>
+            <a href="tel: +1-509-901-1565">(509) 901-1565</a>
+        </p>
     </section>
-
 </footer>
 
-
-</html>
+</html>dklsjfa;lsdkj
