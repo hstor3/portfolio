@@ -114,64 +114,29 @@ a:hover {
 .card {
     position: relative;
     width: 75vw;
-    padding: 10px;
+    padding: 5px;
     margin: auto;
-    border-radius: 5px;
-    box-sizing: initial;
-   /* margin-right: auto; */
-   /* margin-left: auto;  */
-   /* align-self: center; */
-   /* align-content: center; */
-   /* width: 70%; */
-   /* justify-content: center; */
-   /* justify-self: center; */
-}
-
-.card-img-top {
-    /* width: 100%; */
-    height: 25vw;
-    object-fit: cover;
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* margin: auto; */
-    /* margin-left: auto; */
-}
-
-/* images in the work section */
-.img {
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1rem;
-    margin-right: -1rem;
-    border-radius: 2%;
-    max-width: 100%;
-}
-
-.skilift img {
-    width: 100%;
-    max-width: 100%;
-}
-
-.img:hover {
-    opacity: 0.8;
-    transform: scale(1.01);
-    cursor: pointer;
-}
-
-/* image button */
-#work-stuff button {
-    /* background-color: transparent;
     border-radius: 3px;
-    color:transparent;
-    outline: none;
-    margin: auto;
-    border: 10px;
-    width: 40%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: space-around; */
-    
+    box-sizing: initial;
+    border-style: outset;
+    border-color: black;
+    box-shadow: 5px grey;
+
+}
+
+.card-img {
+    height: 35vw;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+.gitHub {
+    color: black;
+    text-decoration: none;
+}
+
+.nextBtn {
+    float: right;
 }
 
 /* contains contact info */

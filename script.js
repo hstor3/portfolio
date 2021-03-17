@@ -33,48 +33,32 @@ let projects = [
 ]
 
 let index = 0
-// index++ for next card
 
 $(document).ready(function() {
     function buildCard() {
-        // event.preventDefault();
         
-        let img = $('<img>').addClass('card-img-top').attr('id', 'projectImg').attr('src', projects[index].screenShot);
+        let img = $('<img>').addClass('card-img').attr('id', 'projectImg').attr('src', projects[index].screenShot);
         let cardBody = $('<div>').addClass('card-body');
         let cardTitle = $('<h3>').addClass('card-title').text(projects[index].projectTitle);
         let link = $('<a target="_blank">').attr('href', projects[index].projectUrl);
-        let gitHub = $('<a target="_blank">').attr('href', projects[index].projectGitHub).text(projects[index].projectGitHub);
-        let lang = $('<div>').text("This project includes " + projects[index].tech)
+        let gitHub = $('<a target="_blank">').addClass('gitHub text-center').attr('href', projects[index].projectGitHub).text(projects[index].projectGitHub);
+        let lang = $('<div>').addClass('text-center').text("This project includes: " + projects[index].tech)
         
-        let nextBtn = $('<button>').text('next').addClass('btn btn-primary').on('click', function() {
-            // index++;
-            // buildCard().toggle()
-            
-            // buildCard(index++);
-            // index++;
+        let nextBtn = $('<button>').text('Next').addClass('nextBtn btn btn-primary').on('click', function() {
             index = ++index % projects.length;
-            // buildCard().reset();
             buildCard();
-            // console.log('index = ' + index)
-
         })
 
-        let backBtn = $('<button>').text('back').addClass('btn btn-primary').on('click', function() {
+        let backBtn = $('<button>').text('Back').addClass('backBtn btn btn-primary').on('click', function() {
             if (index == 0) {
                 index = projects.length - 1
             } else {
                 index--;
-            // index = --index % projects.length;
             }
-            // buildCard().reset();
             buildCard();
-            // buildCard(index--);
-            // buildCard();
         })
         $('#projectCard').empty();
         $('#projectCard').append(cardTitle, link.append(img), lang, gitHub, cardBody.append(backBtn, nextBtn));
     };
     buildCard();
-
-
 })
