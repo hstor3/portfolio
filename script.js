@@ -13,7 +13,7 @@ let projects = [
         projectUrl: 'https://hstor3.github.io/weather-dashboard/',
         screenShot: './photos/weatherboard.png',
         tech: ['html', ' css', ' javascript']
-    }, 
+    },
 
     {
         projectTitle: 'Timed Quiz',
@@ -34,22 +34,22 @@ let projects = [
 
 let index = 0
 
-$(document).ready(function() {
+$(document).ready(function () {
     function buildCard() {
-        
+
         let img = $('<img>').addClass('card-img').attr('id', 'projectImg').attr('src', projects[index].screenShot);
         let cardBody = $('<div>').addClass('card-body');
         let cardTitle = $('<h3>').addClass('card-title').text(projects[index].projectTitle);
         let link = $('<a target="_blank">').attr('href', projects[index].projectUrl);
         let gitHub = $('<a target="_blank">').addClass('gitHub text-center').attr('href', projects[index].projectGitHub).text(projects[index].projectGitHub);
         let lang = $('<div>').addClass('text-center').text("This project includes: " + projects[index].tech)
-        
-        let nextBtn = $('<button>').text('Next').addClass('nextBtn btn btn-primary').on('click', function() {
+
+        let nextBtn = $('<button>').text('Next').addClass('nextBtn btn btn-primary').on('click', function () {
             index = ++index % projects.length;
             buildCard();
         })
 
-        let backBtn = $('<button>').text('Back').addClass('backBtn btn btn-primary').on('click', function() {
+        let backBtn = $('<button>').text('Back').addClass('backBtn btn btn-primary').on('click', function () {
             if (index == 0) {
                 index = projects.length - 1
             } else {

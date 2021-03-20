@@ -15,43 +15,22 @@ body {
 header {
     background-color: rgb(9, 63, 40);
     color:rgb(224, 219, 209);
-    width: 100%;
-}
-
-/* name on top of screen */
-header h1 {
-    margin: auto;
-    padding: 10px;
-    float: left;
-    padding-top: 3.5vw;
-    font-size: 200%;
-}
-
-/* list of button page sections */
-header nav ul {
-    list-style: none;
-    list-style-type: none;
-    text-decoration: none;
-    text-align: right;
-    font-size: 95%;
-}
-
-/* button visuals */
-.info-selectors button {
-    background-color: transparent;
-    border: transparent;
-    font-size:inherit;
-    
+    /* width: 100%; */
+    padding-bottom: 25px;
 }
 
 /* button color (info-selectors and a cannot be combined*/
-a {
+header a {
     text-decoration: none;
-    color:rgb(240, 232, 220);
+    color: black;
+    padding: 5px;
 }
 
-a:hover {
-    color: rgba(0, 0, 0, 0.568);
+header a:hover {
+    color: black;
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    border-radius: 3px;
 }
 
 .profile-pic {
@@ -147,4 +126,13 @@ footer {
     padding-left: 2vw;
     padding-bottom: 2vw;
     padding-top: 2vw;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    color: gray;
+    text-decoration: none;
 }
