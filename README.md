@@ -17,4 +17,3 @@ https://hstor3.github.io/portfolio/
 ## SCREENSHOT 
 
 <img src="photos/Heather Storseth.gif" />
-![](photos/Heather Storseth.gif)
