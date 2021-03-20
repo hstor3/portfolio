@@ -16,4 +16,5 @@ https://hstor3.github.io/portfolio/
 
 ## SCREENSHOT 
 
-<img src="photos/screencapture-hstor3-github-io-portfolio-2021-02-04-10_18_48.png" />
+<img src="photos/Heather Storseth.gif" />
+![](photos/Heather Storseth.gif)
