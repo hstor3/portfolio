@@ -34,7 +34,7 @@ let projects = [
         projectTitle: 'Treat Yo Shelf',
         projectGitHub: 'https://github.com/hstor3/treat-yo-shelf',
         projectUrl: 'https://treatyourshelf.herokuapp.com/',
-        screenShot: './photos/treatyourshelf.png',
+        screenShot: './photos/treatyoshelf.png',
         tech: ['Greensock', 'CSS', 'Handlebars', 'Express', 'Node.js', 'MySQL']
     },
     {
