@@ -29,6 +29,20 @@ let projects = [
         projectUrl: 'https://hstor3.github.io/prompt_pass_generator/',
         screenShot: './photos/passgen.png',
         tech: ['html', ' css', ' javascript']
+    }, 
+    {
+        projectTitle: 'Treat Yo Shelf',
+        projectGitHub: 'https://github.com/hstor3/treat-yo-shelf',
+        projectUrl: 'https://treatyourshelf.herokuapp.com/',
+        screenShot: './photos/treatyourshelf.png',
+        tech: ['Greensock', 'CSS', 'Handlebars', 'Express', 'Node.js', 'MySQL']
+    },
+    {
+        projectTitle: 'MVC Blog',
+        projectGitHub: 'https://github.com/hstor3/turtle-sniffles',
+        projectUrl: 'https://warm-bayou-06994.herokuapp.com/',
+        screenShot: 'photos/blog.gif',
+        tech: ['CSS', 'Handlebars', 'Express', 'Node', 'MySQL', 'JavaScript', 'Express']
     }
 ]
 
