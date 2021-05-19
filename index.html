@@ -1,77 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Heather Storseth</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1 alt="Heather Storseth" class="text-center pb-3 pt-3">Heather Storseth</h1>
-        <nav class="info-selectors bg-white m-0 p-0 mt-2">
-            <div class="row align-items">
-                <a class="col text-center" href="#about-me">About Me</a>
-                <a class="col text-center" href="#work-stuff">Work</a>
-                <a class="col text-center" href="./Resume.pdf" target="_blank">Resume</a>
-                <a class="col text-center" href="#contact-info">Contact Info</a>
-            </div>
-        </nav>
+      <h1 alt="Heather Storseth" class="text-center pb-3 pt-3">
+        Heather Storseth
+      </h1>
+      <!-- <nav class="info-selectors bg-white m-0 p-0 mt-2"> -->
+      <!-- <div class="row align-items"> -->
+      <!-- <a class="col text-center" href="#about-me">About Me</a> -->
+      <!-- <a class="col text-center" href="#work-stuff">Work</a> -->
+      <!-- <a class="col text-center" href="./Resume.pdf" target="_blank">Resume</a> -->
+      <!-- <a class="col text-center" href="#contact-info">Contact Info</a> -->
+      <!-- </div> -->
+      <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+      <!-- Dropdown link -->
+      <!-- </a> -->
+      <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> -->
+      <!-- </div> -->
+      <!-- </nav> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="dropdown-item" href="#about-me">About Me</a>
+            <a class="dropdown-item" href="#work-stuff">Projects</a>
+            <a class="col text-center" href="./Resume.pdf" target="_blank"
+              >Resume</a
+            >
+            <a class="dropdown-item" href="#contact-info">Contact Info</a>
+          </div>
+        </div>
+      </nav>
 
+      <i id="js" class="fab fa-js-square"></i>
+      <i id="html" class="fab fa-html5"></i>
+      <i id="css" class="fab fa-css3-alt"></i>
+      <i id="node" class="fab fa-node-js"></i>
+      <i id="react" class="fab fa-react"></i>
+      <i id="data" class="fas fa-database"></i>
+      <i id="boots" class="fab fa-bootstrap"></i>
+      <i id="plus" class="fas fa-plus"></i>
+      <i id="snowplow" class="fas fa-snowplow"></i>
     </header>
-    <br>
+    <br />
 
     <main class="information-sections" alt="information sections">
-        <!-- will change to a non-blurry pic later on -->
-        <img src="photos/pro-pic.JPG" class="profile-pic" alt="profile picture" />
+      <!-- will change to a non-blurry pic later on -->
+      <img src="photos/pro-pic.JPG" class="profile-pic" alt="profile picture" />
 
-        <article id="about-me" class="stuff" alt="about me section">
-            <h2>About Me</h2>
-            <p>
-                <!-- Not sure how detailed this should be. Better more than less? Will edit if needed -->
-                Hi, I'm Heather Storseth. I am from Selah, Washington and am currently living in Holland, Michigan. I am
-                a mother of a two and three year-old,
-                married, and have two cats. I am someone that has a broad variety of hobbies and is continuously
-                learning new things that spark my interest. I
-                currently enjoy playing cribbage, skiing, crocheting, building/designing improvements for my home, and
-                am thouroughly enjoying learning
-                about web development. My goals for the next 5-10 years are to move to the mountains (Montana maybe?),
-                learn some pottery skills, and to be
-                employed at a sustainable/eco friendly company.
-            </p>
-        </article><br>
+      <article id="about-me" class="stuff" alt="about me section">
+        <h2>About Me</h2>
+        <p>
+          <!-- Not sure how detailed this should be. Better more than less? Will edit if needed -->
+          Hi, I'm Heather Storseth. I am from Selah, Washington and am currently
+          living in Holland, Michigan. I am a mother of a two and three
+          year-old, married, and have two cats. I am someone that has a broad
+          variety of hobbies and is continuously learning new things that spark
+          my interest. I currently enjoy playing cribbage, skiing, crocheting,
+          building/designing improvements for my home, and am thouroughly
+          enjoying learning about web development. My goals for the next 5-10
+          years are to move to the mountains (Montana maybe?), learn some
+          pottery skills, and to be employed at a sustainable/eco friendly
+          company.
+        </p>
+      </article>
+      <br />
 
+      <section id="work-stuff" class="stuff" alt="section with my work">
+        <h2>Work</h2>
+        <p></p>
 
-        <section id="work-stuff" class="stuff" alt="section with my work">
-            <h2>Work</h2>
-            <p>
-
-            </p>
-
-            <div class="card" id="projectCard">
-
-            </div>
-        </section>
+        <div class="card" id="projectCard"></div>
+      </section>
     </main>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
-        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src=“https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="./index.js"></script>
     <script src="./script.js"></script>
-</body>
-
-
-<footer>
-    <section id="contact-info" class="contact-info" alt="contact information">
+  </body>
+    
+    <footer>
+      <section id="contact-info" class="contact-info" alt="contact information">
         <h2>Contact Info</h2>
-        <a href="mailto: heatherstorseth3@gmail.com" target="_blank">heatherstorseth3@gmail.com</a><br>
-        <a href="./Resume.pdf" target="_blank">Resume</a><br>
-        <a href="www.linkedin.com/in/heather-storseth-5571501b9" target="_blank">LinkedIn</a><br>
-        <a href='https://github.com/hstor3' target="_blank">GitHub</a><br>
-        <a href="tel: +1-509-901-1565">(509) 901-1565</a>
-    </section>
-</footer>
-
+        <a href="mailto: heatherstorseth3@gmail.com" target="_blank">
+          <!-- heatherstorseth3@gmail.com -->
+          <i class="fas fa-envelope"></i>
+        </a>
+        <!-- <br /> -->
+        <a href="./Resume.pdf" target="_blank">
+          <i class="fas fa-file"></i>
+          <!-- Resume -->
+        </a>
+        <!-- <br /> -->
+        <a href="www.linkedin.com/in/heather-storseth-5571501b9" target="_blank">
+          <i class="fab fa-linkedin"></i>
+          <!-- LinkedIn -->
+        </a>
+        <!-- <br /> -->
+        <a href="https://github.com/hstor3" target="_blank">
+          <i class="fab fa-github-square"></i>
+          <!-- GitHub -->
+        </a>
+        <!-- <br /> -->
+        <a href="tel: +1-509-901-1565">
+          <!-- (509) 901-1565 -->
+          <i class="fas fa-mobile"></i>
+        </a>
+      </section>
+  </footer>
 </html>
